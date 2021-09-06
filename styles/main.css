@@ -39,3 +39,7 @@ ul {
   list-style:inside;
   text-align: left;
 }
+
+#subheading-color {
+  color: rgb(240, 105, 105)
+}
