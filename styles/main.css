@@ -3,7 +3,7 @@ h1 {
     font-family: "Press Start 2P", monospace;
     text-align: center;
     color: rgba(102, 173, 255, 0.808);
-    font-style: oblique; 
+    font-style: italic; 
   }
 h2 {
     font-size: 60px;
@@ -15,16 +15,17 @@ body {
     background: #afe2eb69;
     text-align: center;
     font-family: "Padauk", monospace;
+    font-style: italic;
   }
 .banner {
   border: 5px solid darkslateblue;
-  width: 1999px;
-  height: 199px;
-  text-align: center;
+  width: 100%;
+  height: 300px;
+  margin: auto;
 }
 
 img {
-  width:2000px;
-  height: 200px;
+  width:100%;
+  height: 100%;
   object-fit: cover;
 }
