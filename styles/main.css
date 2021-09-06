@@ -19,7 +19,7 @@ body {
     font-size: 30px;
   }
 .banner {
-  border: 5px solid darkslateblue;
+  border: 0px solid darkslateblue;
   width: 100%;
   height: 300px;
   margin: auto;
