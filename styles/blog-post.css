@@ -6,7 +6,7 @@ h1 {
     font-style: italic; 
   }
 h2 {
-    font-size: 140%;
+    font-size: 160%;
     font-style: italic;
 }
 .pink-text {
@@ -16,7 +16,7 @@ body {
     background: #afe2eb69;
     text-align: left;
     font-family: "Padauk", monospace;
-    font-size: 25px;
+    font-size: 20px;
   }
 .banner {
     border: 0px solid darkslateblue;
@@ -46,8 +46,9 @@ ul {
 
 .blog-title {
     margin: 100px;
+    text-align: center;
 }
 
 div {
-    margin:5%;   
+    margin: 5% 15%;   
 }
