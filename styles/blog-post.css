@@ -1,12 +1,12 @@
-h1 {
+/* h1 {
     font-size: 80px;
     font-family: "Press Start 2P", monospace;
     text-align: center;
     color: rgba(102, 173, 255, 0.808);
     font-style: italic; 
-  }
+  } */
 h2 {
-    font-size: 120%;
+    font-size: 200%;
     font-style: italic;
 }
 .pink-text {
@@ -14,9 +14,9 @@ h2 {
 }
 body {
     background: #afe2eb69;
-    text-align: center;
+    text-align: left;
     font-family: "Padauk", monospace;
-    font-size: 30px;
+    font-size: 20px;
   }
 .banner {
     border: 0px solid darkslateblue;
@@ -46,7 +46,29 @@ ul {
 
 .blog-title {
     margin: 100px;
+    text-align: center;
+}
 
+.paragraph-content {
+    margin: 5% 15%;   
+    border: 5px solid rgb(255, 150, 150);
+    padding: 50px;
 
+}
 
+.relative {
+    position: relative;
+    right: 50px;
+}
+
+.absolute {
+    position: absolute;
+    right: 50px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    margin: 0px
 }
