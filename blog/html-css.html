@@ -28,13 +28,13 @@
                     <strong>Relative:</strong>
                     <br>
                     The relative position changes the position of the element in relation to where it would <i>usually</i> go. This means that elements will be displayed in the order they are written (either from top to bottom or left to right).
-                    So, using the same heading element from the example above, the CSS "position: relative;" property, combined with an attribute like "right: 50px;" will move the element 50 pixels from the right of its usual position on the page. You can use the first example as reference for what the usual position would be and, as you can see below, it has moved to left by 50px: 
+                    So, using the same heading element from the example above, the CSS "position: relative;" property, combined with an attribute like "right: 50px;" will move the element 50 pixels from the right of its usual position on the page. You can use the first example as reference for what the usual position would be and, as you can see below, it has moved to the left by 50px: 
                     <br> 
                     <h1 class="relative"> tag signifies that the contents between this and the closing tag </h1>
                     <strong>Absolute:</strong>
                     <br>
-                    The absolute position changes the position of the element relative to the parent element with the position relative or absolute, and if there is no parent element that fits these requirements, it will position itself relative to the page. Absolute positioned elements are taken out of the normal flow of the document, and therefore can overlap other elements or cause spacing issues.
-                    So if we used "position: absolute;" on the the example heading element with the attribute "right: 50px;", will move the element 50px from the <i>right of the page itself</i>.
+                    The absolute position changes the position of the element relative to the parent element that has the position: "relative" or "absolute". If there is no parent element that fits these requirements, it will position itself relative to the page. Absolute positioned elements are taken out of the normal flow of the document, and therefore can overlap other elements or cause spacing issues.
+                    So if we used "position: absolute;" on the the first example and apply the attribute "right: 50px;", it will move the element 50px from the <i>right of the page itself</i>.
                     Note that the spacing isn't consistent between the bottom of the heading and the next paragraph unlike prior examples.
                     <br>
                     <h1 class="absolute"> tag signifies that the contents between this and the closing tag </h1>
@@ -45,7 +45,7 @@
                     <br>
                     The fixed position adjusts the position of the element in relation to the <i>viewport</i> ie. the computer display or phone screen that the web page is being viewed on.
                     This means that the element will stay visible to the viewer even when the page is scrolled up or down. This is great if the element is an essential component to interacting with the website, however this means that this element may overlap another.
-                    The position attributes in this case will be used to position the element in the web browser. In this example, I have used the word "Hello" which should be floating in the bottom left corner. The position property looked like this:
+                    The position attributes in this case will be used to position the element in the web browser. In this example, I have used the word "Hello" which should be floating in the bottom left corner. The attributes applied to the heading look like this:
                     <br>
                     <br>
                     .fixed { <br>
