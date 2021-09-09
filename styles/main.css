@@ -7,7 +7,11 @@ h1 {
   }
 h2 {
     font-size: 60px;
-    font-style: italic
+    font-style: italic;
+}
+
+h3 {
+    font-size: 40px;
 }
 .pink-text {
     color: rgb(255, 155, 252);
@@ -31,9 +35,9 @@ img {
 }
 .list {
   width: 25%;
-  height: 400px;
+  height: fit-content;
   border: 5px solid darkblue;
-  margin:auto;
+  margin: auto;
 }
 ul {
   list-style:inside;
@@ -46,4 +50,9 @@ ul {
 
 .underline {
   text-decoration: underline;
+}
+
+.align-left {
+  text-align: left;
+  margin-left: 5%
 }
