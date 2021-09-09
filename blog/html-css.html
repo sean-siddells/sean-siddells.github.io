@@ -11,34 +11,54 @@
             <div class="blog-title">
                 <h2 class="pink-text">What are the differences between relative, absolute and fixed positioning?</h2>
             </div>
-            <div>
+            <div class="paragraph-content">
                 <p> 
                     Positioning in CSS is used as a way of moving html element placements on a web page. 
-                    An "element" is just a basic unit of HTML that has an opening and closing tag that relate to their content.
+                    An "element" is just a basic unit of HTML that has an opening and closing tag that relates to it's content.
                     For example, a "&lt;h1&gt;" tag signifies that the contents between this and the closing tag "&lt;/h1&gt;" will be a heading element. 
                     <br>
+                    This would be expressed like this:
                     <br>
+                    <br>
+                    <h1> tag signifies that the contents between this and the closing tag </h1>
                     Every element is a block of pixels on a webpage, and many variables of these blocks can be adjusted through CSS like size, height/width settings and position.
-                    The <strong>position</strong> property allows you to change the position of the element based on several different principles 
+                    The <strong>position</strong> property allows you to change the position of the element based on several different principles.
                     <br>
                     <br>
                     <strong>Relative:</strong>
                     <br>
                     The relative position changes the position of the element in relation to where it would <i>usually</i> go. This means that elements will be displayed in the order they are written (either from top to bottom or left to right).
-                    So "position: relative;" combined with an attribute like "right: 15px;" will move it 15px from the right of its usual position on the page.
-                    <br>
+                    So, using the same heading element from the example above, the CSS "position: relative;" property, combined with an attribute like "right: 50px;" will move the element 50 pixels from the right of its usual position on the page. You can use the first example as reference for what the usual position would be and, as you can see below, it has moved left of the usual position by 50px: 
                     <br> 
+                    <h1 class="relative"> tag signifies that the contents between this and the closing tag </h1>
                     <strong>Absolute:</strong>
                     <br>
-                    The absolute position changes the position of the element relative to the parent element, and if there is no parent element, it will position itself in relation to the page.
-                    So if we used "position: absolute;" on an element that isn't nested inside another with the attribute "right: 15px;", it will be moved 15px from the right of the page itself. 
+                    The absolute position changes the position of the element relative to the parent element with the position relative or absolute, and if there is no parent element that fits these requirements, it will position itself relative to the page. Absolute positioned elements are taken out of the normal flow of the document, and therefore can overlap other elements or cause spacing issues.
+                    So if we used "position: absolute;" on the the example heading element with the attribute "right: 50px;", will move the element 50px from the <i>right of the page itself</i>.
+                    Note that the spacing isn't consistent between the bottom of the heading and the next paragraph unlike prior examples.
+                    <br>
+                    <h1 class="absolute"> tag signifies that the contents between this and the closing tag </h1>
                     <br>
                     <br>
                     <strong>Fixed:</strong>
                     <br>
                     The fixed position adjusts the position of the element in relation to the <i>viewport</i> ie. the computer display or phone screen that the web page is being viewed on.
                     This means that the element will stay visible to the viewer even when the page is scrolled up or down. This is great if the element is an essential component to interacting with the website, however this means that this element may overlap another.
-                    The position attributes in this case will be used to position the element in the web browser. 
+                    The position attributes in this case will be used to position the element in the web browser. In this example, I have used the word "Hello" which should be floating in the bottom left corner. The position property looked like this:
+                    <br>
+                    <br>
+                    .fixed { <br>
+                        position: fixed;
+                        <br>
+                        bottom: 0px;
+                        <br>
+                        left:0px;
+                        <br>
+                        margin: 0px <br>
+                    }
+                    <br>
+                    <h1 class="fixed">Hello</h1>
+            
                     
                 
 
