@@ -1,12 +1,12 @@
-h1 {
+/* h1 {
     font-size: 80px;
     font-family: "Press Start 2P", monospace;
     text-align: center;
     color: rgba(102, 173, 255, 0.808);
     font-style: italic; 
-  }
+  } */
 h2 {
-    font-size: 160%;
+    font-size: 200%;
     font-style: italic;
 }
 .pink-text {
@@ -49,6 +49,26 @@ ul {
     text-align: center;
 }
 
-div {
+.paragraph-content {
     margin: 5% 15%;   
+    border: 5px solid rgb(255, 150, 150);
+    padding: 50px;
+
+}
+
+.relative {
+    position: relative;
+    right: 50px;
+}
+
+.absolute {
+    position: absolute;
+    right: 50px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    margin: 0px
 }
