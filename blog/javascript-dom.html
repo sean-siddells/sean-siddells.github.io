@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Javascript-DOM</title>
+            <link href= "../styles/main.css" rel= "stylesheet" type= "text/css"> 
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        </head>
+        <body class= "verdana">
+            <h2 class= "pink-text">Technical Blog - JS Fundamentals</h2>
+            <div class= "blog-container">
+                <h3>HTML and CSS</h3>
+                <p> 
+                    HTML and CSS are two of the main coding languages used in building a website. The HTML is like the skeleton, it provides the structure  and content of the website.
+                    The CSS is like the flesh of the website, provides information that then takes the barebones structure of the site and gives it color, formatting, and more specific information about spacing. 
+                    The CSS handles the aesthetic side of the website and much like how we wouldn't be that nice to look at without flesh on our bodies, dresses the skeleton structure of the website so that it's easier on the eyes. 
+                </p>
+                <h3>Control Flow</h3>
+                <p>
+                    Control flow is the order in which a computer executes statements in a piece of code. Generally this would move from the top to bottom, executing the first the first written statement first. Control flow can be thought of like a three-course meal at a restaurant - we eat the meal in the set order that it is given to us; starting with an entree and finishing with a dessert. 
+                    However there are many functions that can change the order in which it is executed, like loops for example. Loops repeat a task until the conditions set are returned with a false result. 
+                    An example of this could be like an arcade game - The player continues to play the game until they make a mistake, where the game ends and the results are logged in the form of a high score. 
+                </p>
+                <h3>The DOM</h3>
+                <p>
+                    The Document Object Model or DOM is an interface that allows the user to interact and manipulate the elements (or nodes) of a web document. It is used to build and make changes to websites. 
+                    We could used the DOM to change the text of a heading or add new style classes to apply to a paragraph. It's extremely helpful as it allows the user to click on the elements of the website and then see what line of code that it pertains to. It is a useful tool for fine tuning a website and making changes in a very interactive manner, where you can see the changes side by side with the DOM.
+                </p>
+                <h3>Accessing Data from Arrays and Objects</h3>
+                <p>
+                    Arrays and Objects are similar in the sense that they are both variable types that can store collections of data. Objects are used when the data is a collection of "things" with characteristics for example it would look something like this:
+                    <br>
+                    <br>
+                    var person { <br>
+                    &emsp;    "name": "Sean",<br>
+                    &emsp;    "age": 27,<br>
+                    &emsp;    "hair colour": "Brown"<br>
+                    };
+                    <br>
+                    <br>
+                    Objects can be accessed using dot or bracket notation. This looks like:
+                    <br>
+                    <br>
+                    person.name
+                    <br>
+                    OR
+                    <br>
+                    person['name']
+                    <br>
+                    <br>
+                    both of these would return the value "Sean".
+                </p>
+                <p>  
+                     An array is an ordered list of data within a single variable. for example:
+                    <br>
+                    <br> 
+                    var flatmates ['Kyren', 'Louis', 'Adam'];
+                    <br>
+                    <br>
+                    Arrays use "zero-indexing" meaning that the reference number of the items in the array starts from zero. So in order to bring up the name 'Kyren' from the flatmates array we would use:
+                    <br>
+                    <br>
+                    flatmates[0];
+                </p>
+                <h3>Functions</h3>
+                <p>
+                    A function is a series of statements that execute a task or action. They require an input and only return an output when they are activated or 'called'. They behave as a special kind of object and therefore can be treated like one when writing code. They are useful for performing calculations, returning values and so on without having to write long lines of code over and over again. This keeps the code succinct and the expressed functions can be called as many times as needed. 
+                </p>
+                
+                
+            </div>
+
+        </body>
+    </html>
