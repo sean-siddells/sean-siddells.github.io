@@ -3,7 +3,7 @@ h1 {
     font-family: "Press Start 2P", monospace;
     text-align: center;
     color: rgba(102, 173, 255, 0.808);
-    font-style: italic; 
+    font-style: italic;
   }
 h2 {
     font-size: 60px;
@@ -70,4 +70,49 @@ p {
 }
 .verdana {
   font-family: verdana;
+}
+
+@media only screen and (max-width: 320px) {
+  body {
+    width: 100%;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  .list {
+    width: 80%;
+    margin: 1em;
+  }
+  ul {
+    padding: 1em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .list {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .list {
+    width: 60%;
+  }
+  li {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  h4 {
+    font-size: 2.25em;
+  }
+  p {
+    font-size: 3em;
+  }
+
+  h1 {
+    font-size: 6em;
+  }
 }
